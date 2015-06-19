@@ -8,10 +8,11 @@
 
 $gray-light : #777;
 $gray-medium-light : #eaeaea;
+$font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
 
 /* Toggle Styles */
 h2{
-    font-size: 1.5em;
+    font-size: 1em;
     clear:both;
 }
 #wrapper {
@@ -165,7 +166,7 @@ h2{
     }
     .carousel-caption{
         margin-bottom: -30px;
-        font-family: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
+        font-family: $font-generic;
         h3{
         color:black;
         text-align: center;
