@@ -1,5 +1,5 @@
-# Palmetto Studios Github repository
+# Palmetto Studios Philippines Github repository
 
-This houses all the code and changes to Palmetto Studios
-[*Palmetto Studios:
-Beauty Beheld and Captured*](https://pstudios.herokuapp.com/)
+The Application for Palmetto Studios and all commit are saved here.
+[*Palmetto Studios*](http://pstudios.herokuapp.com/)
+by [*ALDA Designs*]
