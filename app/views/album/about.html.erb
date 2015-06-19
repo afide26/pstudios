@@ -1,27 +1,35 @@
 <%= provide(:title, "Album")%>
 <div class="content-row">
 	<h2><i class="glyphicon glyphicon-camera glyphy"></i> About Palmetto Studios</h2>
+	<div class="carousel slide" id="my-carousel">
+			<div class="carousel-inner">
+				<div class="item active">
+					<%= image_tag "boyet1.jpg", :class=>"img img-responsive contact-logo" %>
+					<span class="carousel-caption"><h3>Boyet - Owner &amp Chief Photographer</h3></span>
+				</div>
+				<div class="item">
+					<%= image_tag "boyet2.jpg", :class=>"img img-responsive contact-logo" %>
+					<span class="carousel-caption">Boyet and his wife, Agnes</span>
+				</div>
+				<div class="item">
+					<%= image_tag "boyet3.jpg", :class=>"img img-responsive contact-logo" %>
+					<span class="carousel-caption">The nature lover</span>
+				</div>
+				<div class="item">
+					<%= image_tag "boyet4.jpg", :class=>"img img-responsive contact-logo" %>
+					<span class="carousel-caption">The Frequent Traveller</span>
+				</div>
+			</div>
+			<a href="#my-carousel" class="carousel-control left" data-slide="prev">&#10094;</a>
+			<a href="#my-carousel" class="carousel-control right" data-slide="next">&#10095;</a
+	</div>	
+</div>
+<div class="row col-lg-12 col-md-12 col-xs-12">
+	<blockquote class="blockquote-reverse">
+	  <h3 class="caption-quote">"The Earth is ART, the photographer is only a witness."</h3>
+	  <footer>Yann Arthus Bertrand - <cite title="Earth From Above">Earth From Above</cite></footer>
+	</blockquote>
+	<h1>Palmetto Studios</h1>
+	<p>Our boutique studio was born out of my unique passion for seeing beauty in everyday life. The majestic works of art that nature provides continued to enthrall me as I grew up and the camera served as my instrument in preserving what my eyes can lovingly beheld. Through Palmetto Studios, I offer my humble services honed from years of professionalism from various industries to my clients who have graciously bestowed their trust in our services. Join the growing number of people who have experienced the splendor of memories through our eyes.   <%= link_to 'Contact Palmetto Now!', contact_path%> </p>
 </div>
 
-<div class="carousel slide" id="my-carousel">
-		<div class="carousel-inner">
-			<div class="item active">
-				<%= image_tag "boyet1.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h3>Boyet - Owner &amp Chief Photographer</h3></span>
-			</div>
-			<div class="item">
-				<%= image_tag "boyet2.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption">Boyet and his wife, Agnes</span>
-			</div>
-			<div class="item">
-				<%= image_tag "boyet3.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption">The nature lover</span>
-			</div>
-			<div class="item">
-				<%= image_tag "boyet4.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption">The Frequent Traveller</span>
-			</div>
-		</div>
-		<a href="#my-carousel" class="carousel-control left" data-slide="prev">&#10094;</a>
-		<a href="#my-carousel" class="carousel-control right" data-slide="next">&#10095;</a>
-</div>
