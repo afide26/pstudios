@@ -5,6 +5,17 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+$gray-light : #777;
+$gray-medium-light : #eaeaea;
+
+/* mixins, variable, etc. */
+@mixin box_sizing{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*Glyphicons and Side Menu*/
 
 .glyphy{
 	color:#ee323d;
@@ -42,9 +53,46 @@ li{
     margin: 0 auto;
 }
 
-span{
-	margin-bottom: -30px;
-	color: black;
-	font-size: 2em;
-	font-family: cursive;
+.carousel-caption{
+    margin-bottom: -30px;
+    font-family: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
+    h3{
+    color:black;
+    text-align: center;
+    font-size: 1.25em;
+    }
+}
+/* footer */
+
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: $gray-light;
+	a {
+	   color: #555;
+	   &:hover{
+	     color: #222;
+	   }
+	}
+	small {
+	 float:left;
+	}
+	ul {
+	 float: right;
+	 list-style: none;
+	 li {
+	 	float: left;
+	 	margin-left: 15px;
+	 }
+	}
+}
+
+/* miscellaneous */
+
+.debug_dump {
+	clear:both;
+	float:left;
+	width: 100%;
+	@include box_sizing;
 }

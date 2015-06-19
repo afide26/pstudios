@@ -160,6 +160,15 @@ h2{
     #wrapper.toggled #sidebar-wrapper {
         width: 0;
     }
+    .carousel-caption{
+        margin-bottom: -30px;
+        font-family: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
+        h3{
+        color:black;
+        text-align: center;
+        font-size: 1.25em;
+        }
+    }
 
     #page-content-wrapper {
         padding: 20px;
