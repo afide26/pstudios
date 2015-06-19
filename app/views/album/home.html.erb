@@ -1,2 +1,49 @@
-<h1>Album#home</h1>
-<p>Find me in app/views/album/home.html.erb</p>
+<%= provide(:title, "Home")%>
+<div class="content-row">
+	<h2> <i class="glyphicon glyphicon-home glyphy"></i>     Welcome to Palmetto Studios</h2>
+	<hr/>
+	<div class="carousel slide" id="my-carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<%= image_tag "1.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 1</span>
+			</div>
+			<div class="item">
+				<%= image_tag "2.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 2</span>
+			</div>
+			<div class="item">
+				<%= image_tag "3.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 3</span>
+			</div>
+			<div class="item">
+				<%= image_tag "4.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 4</span>
+			</div>
+			<div class="item">
+				<%= image_tag "5.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 5</span>
+			</div>
+			<div class="item">
+				<%= image_tag "6.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 6</span>
+			</div>
+			<div class="item">
+				<%= image_tag "7.png", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 7</span>
+			</div>
+			<div class="item">
+				<%= image_tag "8.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 8</span>
+			</div>
+			<div class="item">
+				<%= image_tag "9.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 9</span>
+			</div>
+		</div>
+		<a href="#my-carousel" class="carousel-control left" data-slide="prev">&#10094;</a>
+		<a href="#my-carousel" class="carousel-control right" data-slide="next">&#10095;</a>
+	</div>
+</div>
+
+

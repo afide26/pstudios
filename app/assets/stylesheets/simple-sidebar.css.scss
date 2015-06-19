@@ -5,7 +5,6 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
 /* Toggle Styles */
 h2{
@@ -181,11 +180,6 @@ h2{
     h2{
         font-size: 2em;
     }
-
-
- 
-
-
     .contact{
     font-size: 1.5em;
     }
@@ -193,49 +187,5 @@ h2{
     width: 170px;
     margin: 20px auto;
     text-align:center;
-	}
 }
-   /* Album CSS */
-
-   .glyphy{
-	color:#ee323d;
-	font-size: .85em;
-}
-
-.content-row-aside{
-	width: 100%;
-	margin: 0 auto;
-	box-sizing: border-box;
-}
-
-.sidemenu{
-	text-align: left;
-}
-
-li{
-	list-style-type: none;
-}
-
-.contact{
-	font-size: 1.25em;
-}
-
-.contact-logo{
-	margin: 50px 0 50px 0;
-}
-
-.right .left{
-	font-size: 3em;
-	padding-top: 30px;
-}
-
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-
-span{
-	margin-bottom: -30px;
-	color: black;
-	font-size: 2em;
-	font-family: cursive;
 }

@@ -1,2 +1,35 @@
-<h1>Album#clients</h1>
-<p>Find me in app/views/album/clients.html.erb</p>
+<%= provide(:title, "Clients")%>
+<div class="content-row">
+	<h2> <i class="glyphicon glyphicon-briefcase glyphy"></i>     Our Clients</h2>
+</div>
+
+<div class="carousel slide" id="my-carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<%= image_tag "corporate/corp1.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 1</span>
+			</div>
+			<div class="item">
+				<%= image_tag "corporate/corp2.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 2</span>
+			</div>
+			<div class="item">
+				<%= image_tag "corporate/corp3.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 3</span>
+			</div>
+			<div class="item">
+				<%= image_tag "corporate/corp4.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 4</span>
+			</div>
+			<div class="item">
+				<%= image_tag "corporate/corp5.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 5</span>
+			</div>
+			<div class="item">
+				<%= image_tag "corporate/corp6.jpg", :class=>"img img-responsive contact-logo" %>
+				<span class="carousel-caption">Image 6</span>
+			</div>
+		</div>
+		<a href="#my-carousel" class="carousel-control left" data-slide="prev">&#10094;</a>
+		<a href="#my-carousel" class="carousel-control right" data-slide="next">&#10095;</a>
+</div>
