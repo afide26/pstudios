@@ -23,6 +23,10 @@ h2{
     transition: all 0.5s ease;
 }
 
+.top-row{
+    margin-top: -10px;
+}
+
 .carousel-indicators li{
     background-color:$gray-light;
     .active{

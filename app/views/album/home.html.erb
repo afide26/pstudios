@@ -1,6 +1,6 @@
 <%= provide(:title, "Home")%>
-<div class="content-row">
-	<div class="col-xs-12 col-md-12 col-lg-12">
+<div class="content-row top-row">
+	<div class="col-xs-12 col-md-12 col-lg-12 col-sm-12 top-row">
 		<h2><i class="glyphicon glyphicon-home glyphy"></i> Welcome to Palmetto Studios</h2>
 	</div>
 	<div class="carousel slide" id="my-carousel">
@@ -50,7 +50,9 @@
 		<a href="#my-carousel" class="carousel-control right next" data-slide="next"><h2><i class="glyphicon glyphicon-chevron-right glyphy"></i></h2></a>		
 	</div>
 </div>
-<div class="content-row">
+<div class="services">
+	<h1 class="title" id="title-services">Our Services</h1>
+	<hr>
 	<%= render 'layouts/services' %>
 </div>
 

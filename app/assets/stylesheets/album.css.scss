@@ -171,16 +171,38 @@ footer{
 	}
 
 }
+.title{
+ padding-top: 25px;
+ text-align: center;
+ font-family: $font-generic;
+ font-weight: bold;
+ font-size: 2em;
+ &#title-services{
+ 	font-size: 2em;
+	font-weight: 600;
+	font-style: $font-generic;
+
+ }
+}
 .services{
 	margin: 0 auto;
+
 	img{
 	width: 60%;
 	}
+	hr{
+	   margin-top: -5px;
+	}
 	.btn, .btn-primary{
-	border-radius: 20px;
-	background-color: $gray-light;
-	border: 1px solid $gray-light;
+	border-radius: 30px;
+	background-color: #238020;
+	border: 1px solid #238020;
 	margin-bottom: 10px;
+	}
+	h1{
+	font-size: 1.5em;
+	font-weight: 400;
+	font-style: $font-generic;
 	}
 }
 
