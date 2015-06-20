@@ -17,23 +17,44 @@ $font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 /*Glyphicons and Side Menu*/
+.carousel-inner img{
+	max-height: 300px;
+}
 
 .glyphy{
 	color:#ee324d;
 	font-size: .85em;
 }
 
-.carousel-indicators li{
-    background-color: #ee323d;
-    .active{
-    background-color: #ff7760;
-    }
-}
-
 .content-row-aside{
 	width: 100%;
 	margin: 0 auto;
 	box-sizing: border-box;
+}
+
+.row{
+	h1{
+		font-size: 1.25em;
+	}
+	p{
+		font-size: 1.10em;
+		font-weight: 200;
+		font-family: $font-generic;
+	}
+	.blockquote-reverse{
+		h3{
+			font-size: 1.10em;
+		}
+		footer{
+				font-size: .85em;
+				font-weight: 300;
+			cite{
+				font-size: .75em;
+				font-weight: 200;
+			}
+		}
+	}
+
 }
 
 .sidemenu{
@@ -57,7 +78,17 @@ li{
 	padding-top: 30px;
 }
 
-.carousel-inner > .item > img {
+/* CAROUSEL */
+
+.carousel-control{
+	background-image: none;
+    &.left, &.right{
+        background-image: none;
+
+    }
+}
+
+.carousel-inner>.item>img {
     margin: 0 auto;
 }
 
@@ -73,6 +104,13 @@ li{
     }
 }
 
+.carousel-indicators li{
+    background-color:$gray-light;
+    .active{
+    background-color:black;
+    }
+}
+
 
 /* Blockquote */
 
@@ -80,13 +118,10 @@ li{
 	font-family: $font-generic;
 	font-weight: 300;
 	color: $gray-light;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 /* About Description */
-p{
-	font-size: 1.25em;
-	font-weight: 200;
-}
+
 /* footer */
 
 footer{
@@ -121,5 +156,31 @@ footer{
 	float:left;
 	width: 100%;
 	@include box_sizing;
+}
+/* Services */
+.services-content{
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	.img .img-thumbnail{
+		margin: 10px auto;
+	}
+	h1{
+		font-size: 1.5em;
+		font-family: $font-generic;
+	}
+
+}
+.services{
+	margin: 0 auto;
+	img{
+	width: 60%;
+	}
+	.btn, .btn-primary{
+	border-radius: 20px;
+	background-color: $gray-light;
+	border: 1px solid $gray-light;
+	margin-bottom: 10px;
+	}
 }
 

@@ -5,7 +5,7 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 $gray-light : #777;
 $gray-medium-light : #eaeaea;
 $font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
@@ -23,13 +23,18 @@ h2{
     transition: all 0.5s ease;
 }
 
+.carousel-indicators li{
+    background-color:$gray-light;
+    .active{
+    background-color:black;
+    }
+}
+
 #wrapper.toggled {
     padding-left: 250px;
 }
 
-.carousel-indicators li{
-    background-color: #ee323d;
-}
+
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -73,16 +78,16 @@ h2{
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: right;
+    text-align: left;
+    font-size: 1.25em;
+    margin: 5px 0 5px 5px;
+    text-align: left;
 }
 
-.sidebar-nav li {
+.sidebar-nav>li {
     display: block;
     line-height: 40px;
-    font-size: 1.25em;
-    margin: 5px 0 5px 0;
-    text-align: left;
-
+    margin-left: 5px;
 }
 #sidebar-brand {
     display: block;
@@ -132,17 +137,15 @@ h2{
 
 /* MENU Button */
 
-.rightside{
+.rightside>h1{
     margin-bottom: 10px;
     text-align:left;
-    font-size: .95em;
+    font-size: 1.5em;
     clear:both;
-    width: 250px;
-
 }
 .size{
     width: 20px;
-    height: 20px;
+    height: 40px;
 }
 
 .size-logo{
@@ -178,26 +181,28 @@ h2{
         font-size: 2em;
         }
     }
-
-    .rightside{
-        width: 50px;
-        text-align:center;
-    }
-
-    .caption-quote{
-        font-style: italic;
-        font-family: $font-generic;
-        font-weight: 200;
-        color: $gray-light;
-        font-size: 1.5em;
+    .rightside>h1{
+        margin-bottom: 10px;
+        text-align:left;
+        font-size: 1.75em;
+        clear:both;
     }
     .carousel-indicators li{
-        background-color: #ee323d;
+        background-color:$gray-light;
         .active{
-        background-color: #ff7760;
+        background-color:black;
         }
     }
 
+    .carousel-control{
+        &.left, &.right{
+            background-image: none;
+
+        }
+    }
+    .carousel-inner img{
+        max-height: 400px;
+    }
     #page-content-wrapper {
         padding: 20px;
         position: relative;
@@ -210,7 +215,7 @@ h2{
     .sidebar-nav li {
     text-align: left;
     line-height: 40px;
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 5px 0 5px 0;
     padding-left: 40px;
     }
