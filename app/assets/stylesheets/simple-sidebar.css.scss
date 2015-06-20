@@ -171,16 +171,19 @@ h2{
     #wrapper.toggled #sidebar-wrapper {
         width: 0;
     }
-    .carousel-caption{
-        margin-bottom: 5px;
-        font-family: $font-generic;
 
-        h3{
-        color:white;
-        text-align: center;
-        font-size: 2em;
-        }
+.carousel-caption{
+    margin-bottom: -50px;
+    font-family: $font-generic;
+
+    h3{
+    color:white;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 200;
     }
+}
+
     .rightside>h1{
         margin-bottom: 10px;
         text-align:left;
