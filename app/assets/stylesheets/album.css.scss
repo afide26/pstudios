@@ -23,6 +23,13 @@ $font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: .85em;
 }
 
+.carousel-indicators li{
+    background-color: #ee323d;
+    .active{
+    background-color: #ff7760;
+    }
+}
+
 .content-row-aside{
 	width: 100%;
 	margin: 0 auto;
@@ -55,25 +62,30 @@ li{
 }
 
 .carousel-caption{
-    margin-bottom: -30px;
+    margin-bottom: -50px;
     font-family: $font-generic;
+
     h3{
-    color:black;
+    color:white;
     text-align: center;
-    font-size: 1.75em;
+    font-size: 1.25em;
+    font-weight: 200;
     }
 }
+
+
 /* Blockquote */
 
 .caption-quote{
-	font-style: italic;
-	font-family: cursive;
-	font-weight: 600;
+	font-family: $font-generic;
+	font-weight: 300;
 	color: $gray-light;
+	font-size: 1.5em;
 }
 /* About Description */
 p{
-	font-size: 1.5em;
+	font-size: 1.25em;
+	font-weight: 200;
 }
 /* footer */
 
@@ -82,6 +94,7 @@ footer{
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
 	color: $gray-light;
+	clear:both;
 	a {
 	   color: #555;
 	   &:hover{
@@ -109,3 +122,4 @@ footer{
 	width: 100%;
 	@include box_sizing;
 }
+
