@@ -47,11 +47,13 @@ h2{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #e3e3e3;
+ 
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    box-shadow: 0 0 10px 0 #888888;
+    background-color: #F5F4F2;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -62,6 +64,7 @@ h2{
     width: 100%;
     position: absolute;
     padding: 15px;
+    background: none;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -176,16 +179,23 @@ h2{
         width: 0;
     }
 
+
 .carousel-caption{
-    margin-bottom: -50px;
+    
     font-family: $font-generic;
 
-    h3{
+    h4{
     color:white;
     text-align: center;
     font-size: 1.25em;
     font-weight: 200;
+    margin-top: -5px;
     }
+}
+
+#about{
+    text-align: left;
+    margin-bottom: 100px;
 }
 
     .rightside>h1{
@@ -208,7 +218,7 @@ h2{
         }
     }
     .carousel-inner img{
-        max-height: 400px;
+        max-height: 500px;
     }
     #page-content-wrapper {
         padding: 20px;

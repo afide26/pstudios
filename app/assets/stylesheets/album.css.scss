@@ -26,6 +26,7 @@ $font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: .85em;
 }
 
+
 .content-row-aside{
 	width: 100%;
 	margin: 0 auto;
@@ -81,7 +82,6 @@ li{
 /* CAROUSEL */
 
 .carousel-control{
-	background-image: none;
     &.left, &.right{
         background-image: none;
 
@@ -93,14 +93,15 @@ li{
 }
 
 .carousel-caption{
-    margin-bottom: -50px;
+    margin-bottom: -25px;
     font-family: $font-generic;
 
-    h3{
+    h4{
     color:white;
     text-align: center;
     font-size: 1.25em;
     font-weight: 200;
+    margin-top:-20px;
     }
 }
 
@@ -205,4 +206,5 @@ footer{
 	font-style: $font-generic;
 	}
 }
+
 
