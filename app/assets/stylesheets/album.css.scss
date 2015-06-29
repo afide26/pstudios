@@ -26,6 +26,10 @@ $font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: .85em;
 }
 
+body{
+	height:100%;
+}
+
 
 .content-row-aside{
 	width: 100%;
@@ -49,6 +53,7 @@ $font-generic: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
 		footer{
 				font-size: .85em;
 				font-weight: 300;
+				
 			cite{
 				font-size: .75em;
 				font-weight: 200;
@@ -185,6 +190,7 @@ footer{
 
  }
 }
+
 .services{
 	margin: 0 auto;
 
