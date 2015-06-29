@@ -33,7 +33,10 @@ h2{
     background-color:black;
     }
 }
-
+.row{
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
 #wrapper.toggled {
     padding-left: 250px;
 }
@@ -163,7 +166,7 @@ h2{
 
 .main-footer{
     background: $gray-light;
-    padding: 10px;
+    padding: 2px;.
     color: #fffeee;
     font-weight: 200;
     li>a:active, :visited, :link{
@@ -189,6 +192,14 @@ h2{
         width: 0;
     }
 
+    .row{
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.content{
+    padding:20px 0;
+}
 
 .carousel-caption{
     
