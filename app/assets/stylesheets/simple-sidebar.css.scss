@@ -161,6 +161,16 @@ h2{
     text-align:left;
 }
 
+.main-footer{
+    background: $gray-light;
+    padding: 10px;
+    color: #fffeee;
+    font-weight: 200;
+    li>a:active, :visited, :link{
+        color:#fffeee;
+        font-weight:200;
+    }
+}
 
 @media(min-width:768px) {
     #wrapper {
