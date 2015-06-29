@@ -86,11 +86,8 @@ li{
 
 /* CAROUSEL */
 
-.carousel-control{
-    &.left, &.right{
-        background-image: none;
-
-    }
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
 }
 
 .carousel-inner>.item>img {
@@ -111,9 +108,10 @@ li{
 }
 
 .carousel-indicators li{
-    background-color:$gray-light;
+    background-color:none;
     .active{
-    background-color:black;
+    background-color:none;
+    background-image: none;
     }
 }
 

@@ -211,12 +211,9 @@ h2{
         }
     }
 
-    .carousel-control{
-        &.left, &.right{
-            background-image: none;
-
-        }
-    }
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
     .carousel-inner img{
         max-height: 500px;
     }
