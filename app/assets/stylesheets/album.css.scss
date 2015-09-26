@@ -30,6 +30,7 @@ body{
 	height:100%;
 }
 
+
 .content{
 	padding:20px 0;
 }
@@ -147,7 +148,7 @@ footer{
 	 float:left;
 	}
 	ul {
-	 float: right;
+	 /*float: right;*/
 	 list-style: none;
 	 li {
 	 	float: left;
@@ -214,4 +215,6 @@ footer{
 	}
 }
 
-
+#home-image >img{
+	width: 150px;
+}
