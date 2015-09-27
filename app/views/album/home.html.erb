@@ -1,9 +1,9 @@
 <%= provide(:title, "Home")%>
 <div class="row">
 	<div class="col-xs-12">
-		<h2>Welcome to <span id="home-image"><%=image_tag("PalmettoLogo.png", alt:"Palmetto Studios") %></span></h2>
+		<h2>Welcome to <div id="home-image"><%=image_tag("PalmettoLogo.png", alt:"Palmetto Studios") %></span></h2>
 	</div>
-	<div class="carousel slide" id="my-carousel">
+	<div class="carousel slide" id="my-carousel" data-ride="carousel">
 	  	<ol class="carousel-indicators">
 		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -18,32 +18,32 @@
 		<div class="carousel-inner">
 			<div class="item active">
 				<%= image_tag "1.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Family Portraits</h4></span>
+				<div class="carousel-caption"><h4>Family Portraits</h4></div>
 			</div>
 			<div class="item">
 				<%= image_tag "3.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Family Portraits</h4></span>
+				<div class="carousel-caption"><h4>Family Portraits</h4></div>
 			</div>
 			<div class="item">
 				<%= image_tag "2.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Group Portraits</h4></span>
+				<div class="carousel-caption"><h4>Group Portraits</h4></div>
 			</div>
 
 			<div class="item">
 				<%= image_tag "4.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Timeless Romance</h4></span>
+				<div class="carousel-caption"><h4>Timeless Romance</h4></div>
 			</div>
 			<div class="item">
 				<%= image_tag "5.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Sir Chief and avid fan</h4></span>
+				<div class="carousel-caption"><h4>Sir Chief and avid fan</h4></div>
 			</div>
 			<div class="item">
 				<%= image_tag "6.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Baby portraits</h4></span>
+				<div class="carousel-caption"><h4>Baby portraits</h4></div>
 			</div>
 			<div class="item">
 				<%= image_tag "8.jpg", :class=>"img img-responsive contact-logo" %>
-				<span class="carousel-caption"><h4>Group Photos</h4></span>
+				<div class="carousel-caption"><h4>Group Photos</h4></div>
 			</div>
 		</div>
 		<a href="#my-carousel" class="carousel-control left" data-slide="prev"><h2><i class="glyphicon glyphicon-chevron-left glyphy"></i></a>

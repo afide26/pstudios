@@ -1,7 +1,7 @@
 <%#added on June 20, 2015 at 6:57pm%>
 
 
-
+<!-- 
 <div class="services-content">
 	<div class="services col-lg-4 col-md-6 col-xs-12">
 		<h1>Photography</h1>
@@ -21,4 +21,51 @@
 		<p>Text goes here</p>
 		<%= link_to 'Book Now!', contact_path, class:"btn btn-primary"%>
 	</div>
+</div> -->
+
+
+<div class="row">
+	<div class="col-xs-12 col-md-4">
+		<div class="services-block">
+			<div class="service-summary">
+				<h3>Photography</h3>
+			</div>
+			<div class="services-body">
+				<%= image_tag'photography.jpg',  class:'img img-responsive'%>
+			</div>
+			<div class="services-footer">
+				<h4><%= link_to '<span class="glyphicon glyphicon-chevron-right
+                pull-right"></span>Contact Us'.html_safe, contact_path %> </h4>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-md-4">
+		<div class="services-block">
+			<div class="service-summary">
+				<h3>Videography</h3>
+			</div>
+			<div class="services-body">
+				<%= image_tag'photography.jpg',  class:'img img-responsive'%>
+			</div>
+			<div class="services-footer">
+				<h4><%= link_to '<span class="glyphicon glyphicon-chevron-right
+                pull-right"></span>Contact Us'.html_safe, contact_path %> </h4>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-md-4">
+		<div class="services-block">
+			<div class="service-summary">
+				<h3>Printing Services</h3>
+			</div>
+			<div class="services-body">
+				<%= image_tag'printing.jpg',  class:'img img-responsive'%>
+			</div>
+			<div class="services-footer">
+				<h4><%= link_to '<span class="glyphicon glyphicon-chevron-right
+                pull-right"></span>Contact Us'.html_safe, contact_path %> </h4>
+			</div>
+		</div>
+	</div>
+
 </div>
