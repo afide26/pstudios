@@ -136,9 +136,11 @@ footer{
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
-	color: $gray-light;
+	color:#0d3653;
 	clear:both;
+	background-color: #f7f1e1;
 	a {
+	   padding-bottom: 1em;
 	   color: #555;
 	   &:hover{
 	     color: #222;
@@ -150,11 +152,16 @@ footer{
 	ul {
 	 /*float: right;*/
 	 list-style: none;
+	 margin-right: 2em;
 	 li {
 	 	float: left;
-	 	margin-left: 15px;
+	 	margin-left: 1em;
 	 }
 	}
+}
+
+footer .main-footer{
+	backround-color: #bdd6ea;
 }
 
 /* miscellaneous */
